@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="request_dialog_title">Hello</string>
+    <string name="request_dialog_message">Sua permissão de localização vai nos ajudar a mostrar
+        anúncios relevantes ao seu app de forma gratuita.
+    </string>
+    <string name="request_dialog_positive_btn_text">Permitir</string>
+    <string name="request_dialog_negative_btn_text">Negar</string>
+</resources>

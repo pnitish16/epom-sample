@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="request_dialog_title">Hello</string>
+    <string name="request_dialog_message">Using your location will help us show you relevant ads and
+        provide our app for FREE.
+    </string>
+    <string name="request_dialog_positive_btn_text">Allow</string>
+    <string name="request_dialog_negative_btn_text">Deny</string>
+</resources>

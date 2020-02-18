@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_banners">Banner ads</string>
+    <string name="title_interstitial">Interstitial ads</string>
+    <string name="title_rewarded">Rewarded ads</string>
+    <string name="title_native_ads">Native ads</string>
+
+    <string name="desc_banner"></string>
+    <string name="desc_interstitial"></string>
+    <string name="desc_native_ads_simple">Simple implementation</string>
+    <string name="desc_native_ads_multiple_instances">Multiple instances implementation</string>
+    <string name="desc_native_ads_application">Preload with Application</string>
+    <string name="desc_native_ads_list_view">ListView with BaseAdapter</string>
+    <string name="desc_native_ads_recycler_view">RecyclerView with RecyclerView.Adapter</string>
+    <string name="desc_smart_banner_view">Smart banner</string>
+
+    <string name="app_name">AdClient SDK Sample App</string>
+    <string name="retrieve_banner">"Retrieve Banner Ad (code) >"</string>
+    <string name="retrieve_interstitial">"Retrieve Interstitial Ad >"</string>
+    <string name="show_interstitial">"Show Interstitial Ad >"</string>
+    <string name="retrieve_rewarded">"Retrieve Rewarded Ad >"</string>
+    <string name="show_rewarded">"Show Rewarded Ad >"</string>
+    <string name="retrieve_native_ad">"Retrieve Native Ad >"</string>
+    <string name="show_native_ad">"Show Native Ad >"</string>
+    <string name="retrieve_native_ads_listview">"Retrieve Native Ads (ListView) >"</string>
+    <string name="retrieve_native_ads_recyclerview">"Retrieve Native Ads (RecyclerView) >"</string>
+    <string name="banner_view_via_code">Banner view via code:</string>
+    <string name="banner_view_via_xml">Banner view via xml:</string>
+
+    <string name="load">Load</string>
+    <string name="show">Show</string>
+    <string name="clear">Clear</string>
+    <string name="params">Params:</string>
+
+    <string name="use_app_context">Load with Application context</string>
+</resources>

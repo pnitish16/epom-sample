@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.adclient.android.sdk.nativeads.view.AdClientIconView
+        android:id="@+id/iconView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/headlineView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iconView"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        android:typeface="monospace" />
+
+    <com.adclient.android.sdk.nativeads.view.AdClientMediaView
+        android:id="@+id/mainImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="168dp"
+        android:layout_below="@+id/iconView"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/descriptionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainImageView"
+        android:layout_alignParentLeft="true" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headlineView"
+        android:layout_toRightOf="@+id/iconView"
+        android:isIndicator="true"
+        android:max="5" />
+
+    <Button
+        android:id="@+id/callToActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionView" />
+
+    <TextView
+        android:id="@+id/advertiserText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/callToActionButton"
+        android:layout_alignBottom="@+id/sponsoredIcon"
+        android:layout_toEndOf="@+id/callToActionButton"
+        android:layout_toRightOf="@+id/callToActionButton"
+        android:text="advert" />
+
+    <TextView
+        android:id="@+id/sponsoredText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sponsoredIcon"
+        android:layout_toStartOf="@+id/sponsoredIcon"
+        android:layout_toLeftOf="@+id/sponsoredIcon"
+        android:text="Sponsored" />
+
+    <com.adclient.android.sdk.nativeads.view.AdClientIconView
+        android:id="@+id/sponsoredIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/descriptionView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="10dp" />
+
+</RelativeLayout>

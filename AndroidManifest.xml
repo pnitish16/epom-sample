@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.adclient.android.sdksampleapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk tools:overrideLibrary="com.mobfox.sdk.all, com.moat.analytics.mobile.mat" />
+    <application
+
+        android:name="com.adclient.android.sdksampleapp.SampleApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:testOnly="false">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.MainActivity"
+
+            android:label="@string/app_name">
+            <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.BannersActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.InterstitialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.RewardedActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.NativeAdsSimpleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.SmartBannersActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.MultipleNativeAdsScrollViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.NativeAdsFromApplicationLoaderActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.NativeAdsFromApplicationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.NativeAdsListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name="com.adclient.android.sdksampleapp.NativeAdsRecyclerViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+
+        <activity
+            android:name="com.adclient.android.sdk.view.AdClientSdkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="unspecified" />
+
+        <activity
+            android:name="com.adclient.android.sdk.video.AdClientVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="unspecified" />
+
+        <activity
+            android:name="com.adclient.android.sdk.inapp.landing.AdClientInAppLandingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <service android:name="com.adclient.android.sdk.synchronization.AdClientSynchronizer" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <!--Please change APPLICATION_ID on your from Epom Manager-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8600340839001693~5320414138"
+            tools:replace="android:value" />
+    </application>
+
+</manifest>

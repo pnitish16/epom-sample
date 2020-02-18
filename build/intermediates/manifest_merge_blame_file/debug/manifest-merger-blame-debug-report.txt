@@ -1,0 +1,982 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.adclient.android.sdksampleapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+7-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:15:5-91
+8        xmlns:android="http://schemas.android.com/apk/res/android"
+8-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:3:69-127
+9        android:minSdkVersion="15"
+9-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:15:5-91
+10        android:targetSdkVersion="28" />
+10-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:15:5-91
+11
+12    <uses-permission
+12-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:6:5-66
+13        xmlns:android="http://schemas.android.com/apk/res/android"
+13-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:2:63-121
+14        android:name="android.permission.INTERNET" />
+14-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:6:22-64
+15    <uses-permission
+15-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:7:5-81
+16        xmlns:android="http://schemas.android.com/apk/res/android"
+16-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:68:77-135
+17        android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:7:22-78
+18    <uses-permission
+18-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:8:5-79
+19        xmlns:android="http://schemas.android.com/apk/res/android"
+19-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:69:75-133
+20        android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:8:22-76
+21    <uses-permission
+21-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:9:5-78
+22        xmlns:android="http://schemas.android.com/apk/res/android"
+22-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:70:75-133
+23        android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:9:22-76
+24    <uses-permission
+24-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:10:5-76
+25        xmlns:android="http://schemas.android.com/apk/res/android"
+25-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:71:72-130
+26        android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:10:22-73
+27    <uses-permission
+27-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:11:5-76
+28        xmlns:android="http://schemas.android.com/apk/res/android"
+28-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:72:72-130
+29        android:name="android.permission.CHANGE_WIFI_STATE" />
+29-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:11:22-73
+30    <uses-permission
+30-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:12:5-75
+31        xmlns:android="http://schemas.android.com/apk/res/android"
+31-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:73:71-129
+32        android:name="android.permission.READ_PHONE_STATE" />
+32-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:12:22-72
+33    <uses-permission
+33-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:13:5-81
+34        xmlns:android="http://schemas.android.com/apk/res/android"
+34-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:74:77-135
+35        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+35-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:13:22-78
+36    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+36-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:11:5-78
+36-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:11:22-75
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\cd0a7ccdc3925739a444275585826114\play-services-measurement-sdk-api-16.3.0\AndroidManifest.xml:25:5-68
+37-->[com.google.android.gms:play-services-measurement-sdk-api:16.3.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\cd0a7ccdc3925739a444275585826114\play-services-measurement-sdk-api-16.3.0\AndroidManifest.xml:25:22-65
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+38-->[com.startapp:inapp-sdk:4.2.3] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\b8ed42c4d4ae8cd05422b045029a0fda\inapp-sdk-4.2.3\AndroidManifest.xml:14:5-81
+38-->[com.startapp:inapp-sdk:4.2.3] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\b8ed42c4d4ae8cd05422b045029a0fda\inapp-sdk-4.2.3\AndroidManifest.xml:14:22-78
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.startapp:inapp-sdk:4.2.3] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\b8ed42c4d4ae8cd05422b045029a0fda\inapp-sdk-4.2.3\AndroidManifest.xml:15:5-110
+39-->[com.startapp:inapp-sdk:4.2.3] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\b8ed42c4d4ae8cd05422b045029a0fda\inapp-sdk-4.2.3\AndroidManifest.xml:15:22-107
+40
+41    <application
+41-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:16:5-105:19
+42        android:name="com.adclient.android.sdksampleapp.SampleApplication"
+42-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:18:9-75
+43        android:allowBackup="true"
+43-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:19:9-35
+44        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+44-->[com.android.support:support-compat:28.0.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+45        android:debuggable="true"
+46        android:icon="@drawable/icon"
+46-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:20:9-38
+47        android:label="@string/app_name"
+47-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:21:9-41
+48        android:testOnly="true" >
+48-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:22:9-33
+49        <meta-data
+49-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:24:9-26:69
+50            xmlns:android="http://schemas.android.com/apk/res/android"
+50-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:11:62-120
+51            android:name="com.google.android.gms.version"
+51-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:25:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:26:13-66
+53
+54        <activity
+54-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:28:9-37:20
+55            android:name="com.adclient.android.sdksampleapp.MainActivity"
+55-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:29:13-74
+56            android:label="@string/app_name" >
+56-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:31:13-45
+57
+58            <!-- android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" -->
+59            <intent-filter>
+59-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:33:13-36:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:34:17-69
+60-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:34:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:35:17-77
+62-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:35:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:39:9-41:77
+66            android:name="com.adclient.android.sdksampleapp.BannersActivity"
+66-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:40:13-77
+67            android:configChanges="keyboardHidden|orientation|screenSize" />
+67-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:41:13-74
+68        <activity
+68-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:43:9-45:77
+69            android:name="com.adclient.android.sdksampleapp.InterstitialActivity"
+69-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:44:13-82
+70            android:configChanges="keyboardHidden|orientation|screenSize" />
+70-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:45:13-74
+71        <activity
+71-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:47:9-49:77
+72            android:name="com.adclient.android.sdksampleapp.RewardedActivity"
+72-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:48:13-78
+73            android:configChanges="keyboardHidden|orientation|screenSize" />
+73-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:49:13-74
+74        <activity
+74-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:51:9-53:77
+75            android:name="com.adclient.android.sdksampleapp.NativeAdsSimpleActivity"
+75-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:52:13-85
+76            android:configChanges="keyboardHidden|orientation|screenSize" />
+76-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:53:13-74
+77        <activity
+77-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:55:9-57:77
+78            android:name="com.adclient.android.sdksampleapp.SmartBannersActivity"
+78-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:56:13-82
+79            android:configChanges="keyboardHidden|orientation|screenSize" />
+79-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:57:13-74
+80        <activity
+80-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:59:9-61:77
+81            android:name="com.adclient.android.sdksampleapp.MultipleNativeAdsScrollViewActivity"
+81-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:60:13-97
+82            android:configChanges="keyboardHidden|orientation|screenSize" />
+82-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:61:13-74
+83        <activity
+83-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:63:9-65:77
+84            android:name="com.adclient.android.sdksampleapp.NativeAdsFromApplicationLoaderActivity"
+84-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:64:13-100
+85            android:configChanges="keyboardHidden|orientation|screenSize" />
+85-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:65:13-74
+86        <activity
+86-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:67:9-69:77
+87            android:name="com.adclient.android.sdksampleapp.NativeAdsFromApplicationActivity"
+87-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:68:13-94
+88            android:configChanges="keyboardHidden|orientation|screenSize" />
+88-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:69:13-74
+89        <activity
+89-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:71:9-73:77
+90            android:name="com.adclient.android.sdksampleapp.NativeAdsListActivity"
+90-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:72:13-83
+91            android:configChanges="keyboardHidden|orientation|screenSize" />
+91-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:73:13-74
+92        <activity
+92-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:75:9-77:77
+93            android:name="com.adclient.android.sdksampleapp.NativeAdsRecyclerViewActivity"
+93-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:76:13-91
+94            android:configChanges="keyboardHidden|orientation|screenSize" />
+94-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:77:13-74
+95        <activity
+95-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:80:9-83:55
+96            xmlns:android="http://schemas.android.com/apk/res/android"
+96-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:7:80-138
+97            android:name="com.adclient.android.sdk.view.AdClientSdkActivity"
+97-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:81:13-77
+98            android:configChanges="keyboardHidden|orientation|screenSize"
+98-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:82:13-74
+99            android:screenOrientation="unspecified" />
+99-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:83:13-52
+100        <activity
+100-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:85:9-88:55
+101            xmlns:android="http://schemas.android.com/apk/res/android"
+101-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:8:83-141
+102            android:name="com.adclient.android.sdk.video.AdClientVideoActivity"
+102-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:86:13-80
+103            android:configChanges="keyboardHidden|orientation|screenSize"
+103-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:87:13-74
+104            android:screenOrientation="unspecified" />
+104-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:88:13-52
+105        <activity
+105-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:90:9-92:77
+106            xmlns:android="http://schemas.android.com/apk/res/android"
+106-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:9:98-156
+107            android:name="com.adclient.android.sdk.inapp.landing.AdClientInAppLandingActivity"
+107-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:91:13-95
+108            android:configChanges="keyboardHidden|orientation|screenSize"
+108-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:92:13-74
+109            android:screenOrientation="unspecified" />
+109-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:9:219-258
+110
+111        <service
+111-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:94:9-97
+112            xmlns:android="http://schemas.android.com/apk/res/android"
+112-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:13:91-149
+113            android:name="com.adclient.android.sdk.synchronization.AdClientSynchronizer" />
+113-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:94:18-94
+114
+115        <activity
+115-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:96:9-98:125
+116            xmlns:android="http://schemas.android.com/apk/res/android"
+116-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:10:68-126
+117            android:name="com.google.android.gms.ads.AdActivity"
+117-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:97:13-65
+118            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+118-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:98:13-122
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\f9abf787ad0d9a940b794b68a84001fe\play-services-ads-lite-17.2.0\AndroidManifest.xml:32:13-37
+120            android:screenOrientation="unspecified"
+120-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:10:237-276
+121            android:theme="@android:style/Theme.Translucent" />
+121-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\f9abf787ad0d9a940b794b68a84001fe\play-services-ads-lite-17.2.0\AndroidManifest.xml:33:13-61
+122
+123        <!-- Please change APPLICATION_ID on your from Epom Manager -->
+124        <meta-data
+124-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:101:9-104:45
+125            xmlns:android="http://schemas.android.com/apk/res/android"
+125-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:12:73-131
+126            android:name="com.google.android.gms.ads.APPLICATION_ID"
+126-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:102:13-69
+127            android:value="ca-app-pub-8600340839001693~5320414138" />
+127-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:103:13-67
+128
+129        <uses-library
+129-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:6:5-142
+130            xmlns:android="http://schemas.android.com/apk/res/android"
+130-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:6:57-115
+131            android:name="org.apache.http.legacy"
+131-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:6:19-56
+132            android:required="false" />
+132-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:6:116-140
+133
+134        <activity
+134-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:14:5-186
+135            xmlns:android="http://schemas.android.com/apk/res/android"
+135-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:14:64-122
+136            android:name="com.mopub.mobileads.MoPubActivity"
+136-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:14:15-63
+137            android:configChanges="keyboardHidden|orientation|screenSize" />
+137-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:14:123-184
+138        <activity
+138-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:15:5-186
+139            xmlns:android="http://schemas.android.com/apk/res/android"
+139-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:15:64-122
+140            android:name="com.mopub.mobileads.MraidActivity"
+140-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:15:15-63
+141            android:configChanges="keyboardHidden|orientation|screenSize" />
+141-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:15:123-184
+142        <activity
+142-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:16:5-182
+143            xmlns:android="http://schemas.android.com/apk/res/android"
+143-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:16:60-118
+144            android:name="com.mopub.common.MoPubBrowser"
+144-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:16:15-59
+145            android:configChanges="keyboardHidden|orientation|screenSize" />
+145-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:16:119-180
+146        <activity
+146-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:17:5-197
+147            xmlns:android="http://schemas.android.com/apk/res/android"
+147-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:17:75-133
+148            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+148-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:17:15-74
+149            android:configChanges="keyboardHidden|orientation|screenSize" />
+149-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:17:134-195
+150        <activity
+150-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:18:5-194
+151            xmlns:android="http://schemas.android.com/apk/res/android"
+151-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:18:72-130
+152            android:name="com.mopub.mobileads.RewardedMraidActivity"
+152-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:18:15-71
+153            android:configChanges="keyboardHidden|orientation|screenSize" />
+153-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:18:131-192
+154        <activity
+154-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:19:5-199
+155            xmlns:android="http://schemas.android.com/apk/res/android"
+155-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:19:77-135
+156            android:name="com.mopub.common.privacy.ConsentDialogActivity"
+156-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:19:15-76
+157            android:configChanges="keyboardHidden|orientation|screenSize" />
+157-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:19:136-197
+158        <activity
+158-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:20:5-182
+159            xmlns:android="http://schemas.android.com/apk/res/android"
+159-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:20:85-143
+160            android:name="com.startapp.android.publish.ads.list3d.List3DActivity"
+160-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:20:15-84
+161            android:theme="@android:style/Theme" />
+161-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:20:144-180
+162        <activity
+162-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:21:5-267
+163            xmlns:android="http://schemas.android.com/apk/res/android"
+163-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:21:96-154
+164            android:name="com.startapp.android.publish.adsCommon.activities.OverlayActivity"
+164-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:21:15-95
+165            android:configChanges="orientation|keyboardHidden|screenSize"
+165-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:21:155-216
+166            android:theme="@android:style/Theme.Translucent" />
+166-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:21:217-265
+167        <activity
+167-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:22:5-258
+168            xmlns:android="http://schemas.android.com/apk/res/android"
+168-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:22:99-157
+169            android:name="com.startapp.android.publish.adsCommon.activities.FullScreenActivity"
+169-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:22:15-98
+170            android:configChanges="orientation|keyboardHidden|screenSize"
+170-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:22:158-219
+171            android:theme="@android:style/Theme" />
+171-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:22:220-256
+172
+173        <receiver
+173-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:23:5-27:16
+174            xmlns:android="http://schemas.android.com/apk/res/android"
+174-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:23:96-154
+175            android:name="com.startapp.android.publish.common.metaData.BootCompleteListener" >
+175-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:23:15-95
+176            <intent-filter>
+176-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:24:7-26:23
+177                <action android:name="android.intent.action.BOOT_COMPLETED" />
+177-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:25:9-70
+177-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:25:17-68
+178            </intent-filter>
+179        </receiver>
+180
+181        <service
+181-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:28:5-158
+182            xmlns:android="http://schemas.android.com/apk/res/android"
+182-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:28:98-156
+183            android:name="com.startapp.android.publish.common.metaData.PeriodicMetaDataService" />
+183-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:28:14-97
+184        <service
+184-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:29:5-151
+185            xmlns:android="http://schemas.android.com/apk/res/android"
+185-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:29:91-149
+186            android:name="com.startapp.android.publish.common.metaData.InfoEventService" />
+186-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:29:14-90
+187        <service
+187-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:30:5-210
+188            xmlns:android="http://schemas.android.com/apk/res/android"
+188-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:30:93-151
+189            android:name="com.startapp.android.publish.common.metaData.PeriodicJobService"
+189-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:30:14-92
+190            android:permission="android.permission.BIND_JOB_SERVICE" />
+190-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:30:152-208
+191
+192        <activity
+192-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:31:5-310
+193            xmlns:android="http://schemas.android.com/apk/res/android"
+193-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:31:66-124
+194            android:name="com.vungle.warren.ui.VungleActivity"
+194-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:31:15-65
+195            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+195-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:31:125-218
+196            android:launchMode="singleTop"
+196-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:31:219-249
+197            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+197-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:31:250-308
+198        <activity
+198-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:32:5-354
+199            xmlns:android="http://schemas.android.com/apk/res/android"
+199-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:32:74-132
+200            android:name="com.vungle.warren.ui.VungleFlexViewActivity"
+200-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:32:15-73
+201            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+201-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:32:133-226
+202            android:hardwareAccelerated="true"
+202-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:32:227-261
+203            android:launchMode="singleTop"
+203-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:32:262-292
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:32:293-352
+205        <activity
+205-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:33:5-258
+206            xmlns:android="http://schemas.android.com/apk/res/android"
+206-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:33:73-131
+207            android:name="com.adclient.android.sdk.com.vungle.warrenui.VungleWebViewActivity"
+207-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:33:15-72
+208            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+208-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:33:132-225
+209            android:launchMode="singleTop" />
+209-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:33:226-256
+210
+211        <receiver
+211-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:34:5-39:16
+212            xmlns:android="http://schemas.android.com/apk/res/android"
+212-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:34:72-130
+213            android:name="com.vungle.warren.NetworkProviderReceiver"
+213-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:34:15-71
+214            android:enabled="false" >
+214-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:34:131-154
+215            <intent-filter>
+215-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:35:7-38:23
+216                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+216-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:36:9-70
+216-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:36:17-68
+217
+218                <category android:name="android.intent.category.DEFAULT" />
+218-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:37:9-67
+218-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:37:19-65
+219            </intent-filter>
+220        </receiver>
+221
+222        <activity
+222-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:40:5-298
+223            xmlns:android="http://schemas.android.com/apk/res/android"
+223-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:40:76-134
+224            android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
+224-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:40:15-75
+225            android:configChanges="keyboardHidden|orientation|screenSize"
+225-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:40:135-196
+226            android:hardwareAccelerated="true"
+226-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:40:197-231
+227            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+227-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:40:232-296
+228        <activity
+228-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:41:5-292
+229            xmlns:android="http://schemas.android.com/apk/res/android"
+229-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:41:70-128
+230            android:name="com.adcolony.sdk.AdColonyAdViewActivity"
+230-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:41:15-69
+231            android:configChanges="keyboardHidden|orientation|screenSize"
+231-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:41:129-190
+232            android:hardwareAccelerated="true"
+232-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:41:191-225
+233            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+233-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:41:226-290
+234        <activity
+234-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:42:5-389
+235            xmlns:android="http://schemas.android.com/apk/res/android"
+235-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:42:77-135
+236            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+236-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:42:15-76
+237            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+237-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:42:136-293
+238            android:hardwareAccelerated="true"
+238-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:42:294-328
+239            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+239-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:42:329-387
+240        <activity
+240-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:43:5-412
+241            xmlns:android="http://schemas.android.com/apk/res/android"
+241-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:43:88-146
+242            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+242-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:43:15-87
+243            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+243-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:43:147-304
+244            android:hardwareAccelerated="true"
+244-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:43:305-339
+245            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+245-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:43:340-410
+246        <activity
+246-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:44:5-421
+247            xmlns:android="http://schemas.android.com/apk/res/android"
+247-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:44:96-154
+248            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+248-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:44:15-95
+249            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+249-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:44:155-312
+250            android:hardwareAccelerated="false"
+250-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:44:313-348
+251            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+251-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:44:349-419
+252        <activity
+252-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:45:5-398
+253            xmlns:android="http://schemas.android.com/apk/res/android"
+253-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:45:85-143
+254            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+254-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:45:15-84
+255            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+255-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:45:144-301
+256            android:hardwareAccelerated="false"
+256-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:45:302-337
+257            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+257-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:45:338-396
+258        <activity
+258-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:46:5-235
+259            xmlns:android="http://schemas.android.com/apk/res/android"
+259-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:46:91-149
+260            android:name="com.mintegral.msdk.interstitial.view.MTGInterstitialActivity"
+260-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:46:15-90
+261            android:configChanges="orientation|screenSize"
+261-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:46:150-196
+262            android:screenOrientation="portrait" />
+262-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:46:197-233
+263        <activity
+263-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:47:5-267
+264            xmlns:android="http://schemas.android.com/apk/res/android"
+264-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:47:86-144
+265            android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
+265-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:47:15-85
+266            android:configChanges="orientation|keyboardHidden|screenSize"
+266-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:47:145-206
+267            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+267-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:47:207-265
+268        <activity
+268-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:48:5-302
+269            xmlns:android="http://schemas.android.com/apk/res/android"
+269-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:48:76-134
+270            android:name="com.mintegral.msdk.activity.MTGCommonActivity"
+270-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:48:15-75
+271            android:configChanges="keyboard|orientation"
+271-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:48:135-179
+272            android:exported="true"
+272-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:48:180-203
+273            android:screenOrientation="portrait"
+273-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:48:204-240
+274            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+274-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:48:241-300
+275        <activity
+275-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:49:5-223
+276            xmlns:android="http://schemas.android.com/apk/res/android"
+276-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:49:101-159
+277            android:name="com.mintegral.msdk.mtgjscommon.authority.activity.MTGAuthorityActivity"
+277-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:49:15-100
+278            android:configChanges="keyboardHidden|orientation|screenSize" />
+278-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:49:160-221
+279
+280        <receiver
+280-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:50:5-55:16
+281            xmlns:android="http://schemas.android.com/apk/res/android"
+281-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:50:67-125
+282            android:name="com.mintegral.msdk.click.AppReceiver" >
+282-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:50:15-66
+283            <intent-filter>
+283-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:51:7-54:23
+284                <action android:name="android.intent.action.PACKAGE_ADDED" />
+284-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:52:9-69
+284-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:52:17-67
+285
+286                <data android:scheme="package" />
+286-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:53:9-41
+286-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:53:15-39
+287            </intent-filter>
+288        </receiver>
+289
+290        <service
+290-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:56:5-60:15
+291            xmlns:android="http://schemas.android.com/apk/res/android"
+291-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:56:65-123
+292            android:name="com.mintegral.msdk.shell.MTGService" >
+292-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:56:14-64
+293            <intent-filter>
+293-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:57:7-59:23
+294                <action android:name="com.mintegral.msdk.download.action" />
+294-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:58:9-68
+294-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:58:17-66
+295            </intent-filter>
+296        </service>
+297
+298        <activity
+298-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:61:5-286
+299            xmlns:android="http://schemas.android.com/apk/res/android"
+299-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:61:58-116
+300            android:name="com.tapjoy.TJAdUnitActivity"
+300-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:61:15-57
+301            android:configChanges="orientation|keyboardHidden|screenSize"
+301-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:61:117-178
+302            android:hardwareAccelerated="true"
+302-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:61:179-213
+303            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+303-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:61:214-284
+304        <activity
+304-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:62:5-276
+305            xmlns:android="http://schemas.android.com/apk/res/android"
+305-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:62:59-117
+306            android:name="com.tapjoy.TJContentActivity"
+306-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:62:15-58
+307            android:configChanges="orientation|keyboardHidden|screenSize"
+307-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:62:118-179
+308            android:hardwareAccelerated="true"
+308-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:62:180-214
+309            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+309-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:62:215-274
+310        <activity
+310-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:63:5-275
+311            xmlns:android="http://schemas.android.com/apk/res/android"
+311-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:63:74-132
+312            android:name="com.mobfox.android.Ads.InterstitialActivity"
+312-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:63:15-73
+313            android:configChanges="orientation|screenSize"
+313-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:63:133-179
+314            android:hardwareAccelerated="true"
+314-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:63:180-214
+315            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+315-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:63:215-273
+316        <activity
+316-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:64:5-209
+317            xmlns:android="http://schemas.android.com/apk/res/android"
+317-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:64:67-125
+318            android:name="com.mobfox.android.core.InAppBrowser"
+318-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:64:15-66
+319            android:configChanges="orientation|screenSize"
+319-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:64:126-172
+320            android:hardwareAccelerated="true" />
+320-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:64:173-207
+321
+322        <service
+322-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:65:5-166
+323            xmlns:android="http://schemas.android.com/apk/res/android"
+323-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:65:75-133
+324            android:name="com.mobfox.android.dmp.services.MobFoxService"
+324-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:65:14-74
+325            android:launchMode="singleTop" />
+325-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:65:134-164
+326
+327        <receiver android:name="io.presage.common.profig.schedule.ProfigAlarmReceiver" />
+327-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:16:9-90
+327-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:16:19-87
+328
+329        <service
+329-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:18:9-20:40
+330            android:name="io.presage.common.profig.schedule.ProfigSyncIntentService"
+330-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:19:13-85
+331            android:exported="false" />
+331-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:20:13-37
+332        <service
+332-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:21:9-24:72
+333            android:name="io.presage.common.profig.schedule.ProfigJobService"
+333-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:22:13-78
+334            android:exported="false"
+334-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:23:13-37
+335            android:permission="android.permission.BIND_JOB_SERVICE" />
+335-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:24:13-69
+336
+337        <activity
+337-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:26:9-30:67
+338            android:name="io.presage.interstitial.ui.InterstitialActivity"
+338-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:27:13-75
+339            android:configChanges="orientation|screenSize"
+339-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:28:13-59
+340            android:exported="false"
+340-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:29:13-37
+341            android:theme="@style/Presage.AdScreen.Translucent" />
+341-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:30:13-64
+342        <activity
+342-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:31:9-35:67
+343            android:name="io.presage.interstitial.ui.InterstitialAndroid8TransparentActivity"
+343-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:32:13-94
+344            android:configChanges="orientation|screenSize"
+344-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:33:13-59
+345            android:exported="false"
+345-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:34:13-37
+346            android:theme="@style/Presage.AdScreen.Translucent" />
+346-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:35:13-64
+347        <activity
+347-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:36:9-40:55
+348            android:name="io.presage.interstitial.ui.InterstitialAndroid8RotableActivity"
+348-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:37:13-90
+349            android:configChanges="orientation|screenSize"
+349-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:38:13-59
+350            android:exported="false"
+350-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:39:13-37
+351            android:theme="@style/Presage.AdScreen" />
+351-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:40:13-52
+352        <activity
+352-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:41:9-47:20
+353            android:name="io.presage.mraid.browser.ShortcutActivity"
+353-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:42:13-69
+354            android:theme="@style/Presage.AdScreen" >
+354-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:43:13-52
+355            <intent-filter>
+355-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:44:13-46:29
+356                <action android:name="android.intent.action.MAIN" />
+356-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:34:17-69
+356-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:34:25-66
+357            </intent-filter>
+358        </activity>
+359        <activity
+359-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:48:9-55:20
+360            android:name="io.presage.mraid.browser.Android8AndLaterShortcutActivity"
+360-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:49:13-85
+361            android:exported="false"
+361-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:50:13-37
+362            android:theme="@style/Presage.AdScreen" >
+362-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:51:13-52
+363            <intent-filter>
+363-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:44:13-46:29
+364                <action android:name="android.intent.action.MAIN" />
+364-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:34:17-69
+364-->C:\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\AndroidManifest.xml:34:25-66
+365            </intent-filter>
+366        </activity>
+367        <activity
+367-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:56:9-58:62
+368            android:name="com.ogury.consent.manager.ConsentActivity"
+368-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:57:13-69
+369            android:configChanges="orientation|screenSize" />
+369-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:58:13-59
+370
+371        <receiver
+371-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:60:9-67:20
+372            android:name="io.presage.core.receiver.UserPresentReceiver"
+372-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:61:13-72
+373            android:enabled="true"
+373-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:62:13-35
+374            android:exported="true" >
+374-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:63:13-36
+375            <intent-filter>
+375-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:64:13-66:29
+376                <action android:name="android.intent.action.USER_PRESENT" />
+376-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:65:17-77
+376-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:65:25-74
+377            </intent-filter>
+378        </receiver>
+379        <receiver
+379-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:68:9-76:20
+380            android:name="io.presage.core.receiver.BootCompletedReceiver"
+380-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:69:13-74
+381            android:enabled="true"
+381-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:70:13-35
+382            android:exported="true" >
+382-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:71:13-36
+383            <intent-filter>
+383-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:72:13-75:29
+384                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+384-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:73:17-86
+384-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:73:25-83
+385                <action android:name="android.intent.action.BOOT_COMPLETED" />
+385-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:25:9-70
+385-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:25:17-68
+386            </intent-filter>
+387        </receiver>
+388        <receiver
+388-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:77:9-84:20
+389            android:name="io.presage.core.receiver.TimeSetReceiver"
+389-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:78:13-68
+390            android:enabled="true"
+390-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:79:13-35
+391            android:exported="true" >
+391-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:80:13-36
+392            <intent-filter>
+392-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:81:13-83:29
+393                <action android:name="android.intent.action.TIME_SET" />
+393-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:82:17-73
+393-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:82:25-70
+394            </intent-filter>
+395        </receiver>
+396        <receiver
+396-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:85:9-92:20
+397            android:name="io.presage.core.receiver.CarrierConfigChangedReceiver"
+397-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:86:13-81
+398            android:enabled="true"
+398-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:87:13-35
+399            android:exported="true" >
+399-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:88:13-36
+400            <intent-filter>
+400-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:89:13-91:29
+401                <action android:name="android.telephony.action.CARRIER_CONFIG_CHANGED" />
+401-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:90:17-90
+401-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:90:25-87
+402            </intent-filter>
+403        </receiver>
+404        <receiver
+404-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:93:9-100:20
+405            android:name="io.presage.core.receiver.NextAlarmClockChangedReceiver"
+405-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:94:13-82
+406            android:enabled="true"
+406-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:95:13-35
+407            android:exported="true" >
+407-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:96:13-36
+408            <intent-filter>
+408-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:97:13-99:29
+409                <action android:name="android.app.action.NEXT_ALARM_CLOCK_CHANGED" />
+409-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:98:17-86
+409-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:98:25-83
+410            </intent-filter>
+411        </receiver>
+412        <receiver
+412-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:101:9-110:20
+413            android:name="io.presage.core.receiver.EventReminderReceiver"
+413-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:102:13-74
+414            android:enabled="true"
+414-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:103:13-35
+415            android:exported="true" >
+415-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:104:13-36
+416            <intent-filter>
+416-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:105:13-109:29
+417                <action android:name="android.intent.action.EVENT_REMINDER" />
+417-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:106:17-79
+417-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:106:25-76
+418
+419                <data android:scheme="content" />
+419-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:53:9-41
+419-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:53:15-39
+420            </intent-filter>
+421        </receiver>
+422        <receiver
+422-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:111:9-120:20
+423            android:name="io.presage.core.receiver.BluetoothReceiver"
+423-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:112:13-70
+424            android:enabled="true"
+424-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:113:13-35
+425            android:exported="true" >
+425-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:114:13-36
+426            <intent-filter>
+426-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:115:13-119:29
+427                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+427-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:116:17-88
+427-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:116:25-85
+428                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+428-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:117:17-91
+428-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:117:25-88
+429                <action android:name="android.hardware.usb.action.USB_ACCESSORY_DETACHED" />
+429-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:118:17-93
+429-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:118:25-90
+430            </intent-filter>
+431        </receiver>
+432        <receiver
+432-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:121:9-130:20
+433            android:name="io.presage.core.receiver.PackageFullyRemovedReceiver"
+433-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:122:13-80
+434            android:enabled="true"
+434-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:123:13-35
+435            android:exported="true" >
+435-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:124:13-36
+436            <intent-filter>
+436-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:125:13-129:29
+437                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+437-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:126:17-86
+437-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:126:25-83
+438
+439                <data android:scheme="package" />
+439-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:53:9-41
+439-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:53:15-39
+440            </intent-filter>
+441        </receiver>
+442        <receiver
+442-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:131:9-134:39
+443            android:name="io.presage.core.receiver.AlarmReceiver"
+443-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:132:13-66
+444            android:enabled="true"
+444-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:133:13-35
+445            android:exported="true" />
+445-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:134:13-36
+446
+447        <activity
+447-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:136:9-139:64
+448            android:name="io.presage.core.activity.SBActivity"
+448-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:137:13-63
+449            android:taskAffinity="io.presage.core.activity.ABActivity"
+449-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:138:13-71
+450            android:theme="@android:style/Theme.Translucent" />
+450-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:139:13-61
+451
+452        <service
+452-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:141:9-144:40
+453            android:name="io.presage.core.service.SdkService"
+453-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:142:13-62
+454            android:enabled="true"
+454-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:143:13-35
+455            android:exported="false" />
+455-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:144:13-37
+456        <service
+456-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:145:9-147:72
+457            android:name="io.presage.core.service.SdkJobService"
+457-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:146:13-65
+458            android:permission="android.permission.BIND_JOB_SERVICE" />
+458-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:147:13-69
+459        <service
+459-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:148:9-150:72
+460            android:name="io.presage.core.service.SMJobService"
+460-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:149:13-64
+461            android:permission="android.permission.BIND_JOB_SERVICE" />
+461-->[ogury-4.1.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4478741b81a00eac92ddb13abe1da313\ogury-4.1.4\AndroidManifest.xml:150:13-69
+462
+463        <provider
+463-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\f9abf787ad0d9a940b794b68a84001fe\play-services-ads-lite-17.2.0\AndroidManifest.xml:35:9-39:39
+464            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+464-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\f9abf787ad0d9a940b794b68a84001fe\play-services-ads-lite-17.2.0\AndroidManifest.xml:36:13-76
+465            android:authorities="com.adclient.android.sdksampleapp.mobileadsinitprovider"
+465-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\f9abf787ad0d9a940b794b68a84001fe\play-services-ads-lite-17.2.0\AndroidManifest.xml:37:13-73
+466            android:exported="false"
+466-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\f9abf787ad0d9a940b794b68a84001fe\play-services-ads-lite-17.2.0\AndroidManifest.xml:38:13-37
+467            android:initOrder="100" />
+467-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\f9abf787ad0d9a940b794b68a84001fe\play-services-ads-lite-17.2.0\AndroidManifest.xml:39:13-36
+468
+469        <activity
+469-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\3080eed180765bfc7998d6ec12ccbed2\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+470            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+470-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\3080eed180765bfc7998d6ec12ccbed2\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+471            android:exported="false"
+471-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\3080eed180765bfc7998d6ec12ccbed2\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+472            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+472-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\3080eed180765bfc7998d6ec12ccbed2\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+473
+474        <provider
+474-->[com.squareup.picasso:picasso:2.71828] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\8cae14de4f8bb502babc738ac6d2e3aa\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+475            android:name="com.squareup.picasso.PicassoProvider"
+475-->[com.squareup.picasso:picasso:2.71828] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\8cae14de4f8bb502babc738ac6d2e3aa\picasso-2.71828\AndroidManifest.xml:9:13-64
+476            android:authorities="com.adclient.android.sdksampleapp.com.squareup.picasso"
+476-->[com.squareup.picasso:picasso:2.71828] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\8cae14de4f8bb502babc738ac6d2e3aa\picasso-2.71828\AndroidManifest.xml:10:13-72
+477            android:exported="false" />
+477-->[com.squareup.picasso:picasso:2.71828] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\8cae14de4f8bb502babc738ac6d2e3aa\picasso-2.71828\AndroidManifest.xml:11:13-37
+478
+479        <meta-data
+479-->[com.android.support:customtabs:26.1.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\417b126164fe789b7a5a08824253be1c\customtabs-26.1.0\AndroidManifest.xml:23:9-25:38
+480            android:name="android.support.VERSION"
+480-->[com.android.support:customtabs:26.1.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\417b126164fe789b7a5a08824253be1c\customtabs-26.1.0\AndroidManifest.xml:24:13-51
+481            android:value="26.1.0" />
+481-->[com.android.support:customtabs:26.1.0] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\417b126164fe789b7a5a08824253be1c\customtabs-26.1.0\AndroidManifest.xml:25:13-35
+482
+483        <service
+483-->[com.appnext.sdk:banners:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\0292daec33efc90ae248963a7cc13201\banners-2.4.8.472\AndroidManifest.xml:10:9-12:43
+484            android:name="com.appnext.core.AdsService"
+484-->[com.appnext.sdk:banners:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\0292daec33efc90ae248963a7cc13201\banners-2.4.8.472\AndroidManifest.xml:11:13-55
+485            android:multiprocess="true" />
+485-->[com.appnext.sdk:banners:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\0292daec33efc90ae248963a7cc13201\banners-2.4.8.472\AndroidManifest.xml:12:13-40
+486
+487        <activity
+487-->[com.appnext.sdk:banners:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\0292daec33efc90ae248963a7cc13201\banners-2.4.8.472\AndroidManifest.xml:14:9-16:52
+488            android:name="com.appnext.banners.BannerActivity"
+488-->[com.appnext.sdk:banners:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\0292daec33efc90ae248963a7cc13201\banners-2.4.8.472\AndroidManifest.xml:15:13-62
+489            android:screenOrientation="portrait" />
+489-->[com.appnext.sdk:banners:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\0292daec33efc90ae248963a7cc13201\banners-2.4.8.472\AndroidManifest.xml:16:13-49
+490
+491        <service
+491-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:14:9-17:40
+492            android:name="com.appnext.base.services.OperationService"
+492-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:15:13-70
+493            android:enabled="true"
+493-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:16:13-35
+494            android:exported="false" />
+494-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:17:13-37
+495        <service
+495-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:18:9-21:72
+496            android:name="com.appnext.base.services.OperationJobService"
+496-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:19:13-73
+497            android:exported="true"
+497-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:20:13-36
+498            android:permission="android.permission.BIND_JOB_SERVICE" />
+498-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:21:13-69
+499
+500        <receiver android:name="com.appnext.base.receivers.AppnextBootReciever" >
+500-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:23:9-27:20
+500-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:23:19-80
+501            <intent-filter>
+501-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:24:7-26:23
+502                <action android:name="android.intent.action.BOOT_COMPLETED" />
+502-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:25:9-70
+502-->[adclient-sdk-for-android-4.6.4.aar] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\4854b170496406cbd16027a53891dadf\adclient-sdk-for-android-4.6.4\AndroidManifest.xml:25:17-68
+503            </intent-filter>
+504        </receiver>
+505
+506        <activity
+506-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:29:9-32:46
+507            android:name="com.appnext.core.ResultActivity"
+507-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:30:13-59
+508            android:excludeFromRecents="true"
+508-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:31:13-46
+509            android:launchMode="singleTop" />
+509-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:32:13-43
+510        <activity
+510-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:33:9-37:52
+511            android:name="com.appnext.core.result.ResultPageActivity"
+511-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:34:13-70
+512            android:excludeFromRecents="true"
+512-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:35:13-46
+513            android:launchMode="singleTop"
+513-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:36:13-43
+514            android:screenOrientation="portrait" />
+514-->[com.appnext.sdk:core:2.4.8.472] C:\Users\Nitish_PC\.gradle\caches\transforms-2\files-2.1\7bf8a12ae81918c309835606989abc16\core-2.4.8.472\AndroidManifest.xml:37:13-49
+515    </application>
+516
+517</manifest>

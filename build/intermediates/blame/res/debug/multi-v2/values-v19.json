@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Nitish_PC\\Documents\\Codelab_Workspace\\ads_workspace\\sdk-sample-app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Nitish_PC\\.gradle\\caches\\transforms-2\\files-2.1\\4854b170496406cbd16027a53891dadf\\adclient-sdk-for-android-4.6.4\\res\\values-v19\\values-v19.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,328",
+                        "endLines": "9,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "323,584"
+                    }
+                }
+            ]
+        }
+    ]
+}

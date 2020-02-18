@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:C.\Users\Nitish_PC\Documents\Codelab_Workspace\ads_workspace\sdk-sample-app\libs\adclient-sdk-for-android-4.6.4.aar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/adcolony-4.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-alphab-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-common-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-interstitial-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-interstitialvideo-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-mtgbanner-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-mtgdownloads-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-mtgjscommon-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-mtgnative-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-nativeex-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-playercommon-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-reward-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-videocommon-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/mintegral-videojs-10.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/tapjoyconnectlibrary-12.3.3.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4854b170496406cbd16027a53891dadf/adclient-sdk-for-android-4.6.4/jars/libs/unity-ads-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
